@@ -1,0 +1,6 @@
+{
+    "require-dev": {
+        "vimeo/psalm": "^5.12",
+        "psalm/plugin-laravel": "^2.8"
+    }
+}
