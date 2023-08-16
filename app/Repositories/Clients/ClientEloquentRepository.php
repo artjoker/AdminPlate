@@ -82,6 +82,7 @@ class ClientEloquentRepository implements ClientRepository
         /** @var Client $client */
         $client = Client::query()
             ->where('id', '=', $id)
+            ->withTrashed()
             ->first();
 
         if (! $client) {
