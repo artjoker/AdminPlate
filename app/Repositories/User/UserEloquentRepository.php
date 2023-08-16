@@ -103,6 +103,7 @@ class UserEloquentRepository implements UserRepository
         /** @var User $user */
         $user = User::query()
             ->where('id', '=', $id)
+            ->withTrashed()
             ->first();
 
         if (! $user) {
