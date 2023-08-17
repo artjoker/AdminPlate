@@ -9,7 +9,6 @@
     findUnusedCode="false"
 >
     <projectFiles>
-        <directory name="Modules"/>
         <directory name="app"/>
         <directory name="database/factories"/>
         <directory name="database/seeders"/>
